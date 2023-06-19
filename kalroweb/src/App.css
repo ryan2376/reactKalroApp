@@ -19,6 +19,19 @@ float: right;
 align-items: center;
 }
 
+#navBarnav{
+background-color: #f8f9fa;
+padding: 10px;
+position: fixed;
+top: 0;
+left: 0%;
+width: 100%;
+z-index: 100;
+margin-right: 20px;
+float: right;
+align-items: center;
+}
+
 .navbar-brand {
 color: #333;
 font-weight: bold;
