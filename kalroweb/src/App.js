@@ -7,8 +7,21 @@ import './App.css';
 function App() {
   return (
     <div>
-        <nav className="navbar">
-        <div>
+      <script 
+        src="https://cdn.jsdelivr.net/npm/react/umd/react.production.min.js" crossorigin></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/react-dom/umd/react-dom.production.min.js"
+        crossorigin></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/react-bootstrap@next/dist/react-bootstrap.min.js"
+        crossorigin></script>
+      <script>var Alert = ReactBootstrap.Alert;</script>
+      <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+            integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+            crossorigin="anonymous"/>
+      <body>
+      <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <a className="navbar-brand" href="#">
             <img src={logo} alt="#"/>
         </a>
@@ -32,8 +45,9 @@ function App() {
             </li>
           </ul>
         </div>
-      </div>
       </nav>
+      {/* </div> */}
+   
           {/* <!-- Hero Section -->  */}
     <section className="jumbotron">
       <div className="container text-center">
@@ -90,6 +104,8 @@ function App() {
         </div>
       </div>
     </section>
+
+    </body>
     </div> 
         );
   }
