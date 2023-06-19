@@ -19,19 +19,6 @@ float: right;
 align-items: center;
 }
 
-#navBarnav{
-background-color: #f8f9fa;
-padding: 10px;
-position: fixed;
-top: 0;
-left: 0%;
-width: 100%;
-z-index: 100;
-margin-right: 20px;
-float: right;
-align-items: center;
-}
-
 .navbar-brand {
 color: #333;
 font-weight: bold;
@@ -58,12 +45,12 @@ font-weight: bold;
 }
 
 .navbar-nav .nav-link:hover {
-color: #007bff;
+color: #006effc5;
 }
 
 /* Hero Section */
 .jumbotron {
-background-color: rgb(85, 228, 8);
+background-color: rgba(86, 233, 7, 0.981);
 padding: 100px 0;
 background-size: cover;
 background-repeat: no-repeat;
